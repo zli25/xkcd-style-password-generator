@@ -1,8 +1,6 @@
 <?php
 	
-	$symbol = ['!', '@', '#', '$', '^', '&', '*'];
-	//$num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-	//print_r($_POST);
+	$symbol = array('!', '@', '#', '$', '^', '&', '*');
 	if($wordlist = file("wordlist.txt", FILE_IGNORE_NEW_LINES)) {
 		
 		$password = "";
